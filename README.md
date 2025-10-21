@@ -1,11 +1,11 @@
-# Citizens Reporting App (Cordova Version)
+# Citizens Reporting App (Cordova)
 
 **Description:**  
 This is the final project for the **Mobile App Development class at Bincom Academy**, built using **Cordova and App.js**.  
 The app demonstrates essential mobile development skills, including **geolocation**, **image handling**,
 **real-time notifications** via **Firebase** and integration with a **WordPress backend**.  
-Note: This version has **restricted login** (only the developer can log in for testing purposes).  
 
+ 
 ---
 
 ## **Features**  
@@ -50,11 +50,14 @@ Note: This version has **restricted login** (only the developer can log in for t
 ---
 
 ## **Live Demo / APK**  
-- 
-- Test the app on Android: [Download APK](https://drive.google.com/) 
+- Test the app on Android: [Download APK](https://drive.google.com/file/d/1PUdq0uhGcnzKGBVheRO65IdvYQQEtmdp/view?usp=sharing)
 
-> **Note**: This is a development version; login is restricted for security/testing purposes.
+> **Note**: This version has **restricted login** (only the developer can log in for testing purposes).
 
 
 ---
 
+## **Developer**
+Developed by: **Mistura Ishola**
+Connect with me:
+**LinkedIn**: (https://www.linkedin.com/in/mistura-ishola)

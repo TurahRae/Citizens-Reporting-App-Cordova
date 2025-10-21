@@ -3,7 +3,7 @@
 **Description:**  
 This is the final project for the **Mobile App Development class at Bincom Academy**, built using **Cordova and App.js**.  
 The app demonstrates essential mobile development skills, including **geolocation**, **image handling**,
-**real-time notifications** via Firebase and integration with a **WordPress backend**.  
+**real-time notifications** via **Firebase** and integration with a **WordPress backend**.  
 Note: This version has **restricted login** (only the developer can log in for testing purposes).  
 
 ---
@@ -30,22 +30,22 @@ Note: This version has **restricted login** (only the developer can log in for t
 ## **App Previews**
 
 ### Home Page
-![Home Page]()
+![Home Page](home.PNG)
 
 ### Welcome Page
-![Welcome Page]()
+![Welcome Page](welcome.PNG)
 
 ### Submit Incident Page - Step 1
-![Submit Incident 1]()
+![Submit Incident 1](submit-incident-1.PNG)
 
 ### Submit Incident Page - Step 2
-![Submit Incident 2]()
+![Submit Incident 2](submit-incident-2.PNG)
 
 ### Incident Details Page - 1
-![Incident 1]()
+![Incident 1](incident-1.PNG)
 
 ### Incident Details Page - 2
-![Incident 2]()
+![Incident 2](incident-2.PNG)
 
 ---
 

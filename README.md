@@ -52,12 +52,13 @@ The app demonstrates essential mobile development skills, including **geolocatio
 ## **APK**  
 - Test the app on Android: [Download APK](https://drive.google.com/file/d/1PUdq0uhGcnzKGBVheRO65IdvYQQEtmdp/view?usp=sharing)
 
-> **Note**: This version has **restricted login** (only the developer can log in for testing purposes).
+> **Note**: This version has **restricted login** (only the developer can log in for testing purposes)
 
 
 ---
 
 ## **Developer**
-Developed by: **Mistura Ishola**
+
+**Mistura Ishola**
 
 Connect with me: [LinkedIn](https://www.linkedin.com/in/mistura-ishola)

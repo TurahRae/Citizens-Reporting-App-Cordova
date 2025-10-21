@@ -30,30 +30,31 @@ Note: This version has **restricted login** (only the developer can log in for t
 ## **App Previews**
 
 ### Home Page
-![Home Page](home.PNG)
+![Home Page](media/home.PNG)
 
 ### Welcome Page
-![Welcome Page](welcome.PNG)
+![Welcome Page](media/welcome.PNG)
 
 ### Submit Incident Page - Step 1
-![Submit Incident 1](submit-incident-1.PNG)
+![Submit Incident 1](media/submit-incident-1.PNG)
 
 ### Submit Incident Page - Step 2
-![Submit Incident 2](submit-incident-2.PNG)
+![Submit Incident 2](media/submit-incident-2.PNG)
 
 ### Incident Details Page - 1
-![Incident 1](incident-1.PNG)
+![Incident 1](media/incident-1.PNG)
 
 ### Incident Details Page - 2
-![Incident 2](incident-2.PNG)
+![Incident 2](media/incident-2.PNG)
 
 ---
 
 ## **Live Demo / APK**  
 - 
-- Test the app on Android: [Download APK](https://drive.google.com/YourAPKLink) 
+- Test the app on Android: [Download APK](https://drive.google.com/) 
 
 > **Note**: This is a development version; login is restricted for security/testing purposes.
+
 
 ---
 

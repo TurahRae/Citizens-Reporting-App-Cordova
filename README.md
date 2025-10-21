@@ -60,5 +60,4 @@ The app demonstrates essential mobile development skills, including **geolocatio
 ## **Developer**
 Developed by: **Mistura Ishola**
 
-Connect with me:
-**LinkedIn**: [LinkedIn](https://www.linkedin.com/in/mistura-ishola)
+Connect with me:[LinkedIn](https://www.linkedin.com/in/mistura-ishola)

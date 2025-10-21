@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f9fc;
+  color: #2d3748;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #3b82f6, #60a5fa); 
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-bottom: 2px solid #2563eb;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: #e0f2fe;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav button:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: #f1f5f9; 
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+label {
+  font-weight: 600;
+  color: #1e293b; 
+}
+
+input, select, textarea {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  outline: none;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  background-color: #3b82f6;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.incident {
+  background-color: #e0f2fe; 
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(59, 130, 246, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.incident:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(59, 130, 246, 0.2);
+}
+
+.incident h3 {
+  margin-top: 0;
+  color: #1e40af; 
+}
+
+.incident p {
+  color: #334155;
+  line-height: 1.5;
+}
+
+.incident img {
+  margin-top: 0.8rem;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+#preview {
+  display: block;
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.map {
+  height: 300px;
+  width: 100%;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.notification {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-size: 14px;
+  z-index: 1000;
+  display: none;
+  max-width: 250px;
+  word-wrap: break-word;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.notification.success {
+  background-color: #4caf50;
+}
+
+.notification.error {
+  background-color: #f44336;
+}
+
+#incidentList {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f1f5f9;
+  border: 1px dashed #94a3b8;
+  border-radius: 8px;
+  text-align: center;
+  color: #64748b;
+  font-style: italic;
+}
+
+footer {
+  background-color: #e2e8f0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #475569;
+  margin-top: 2rem;
+  border-top: 2px solid #3b82f6;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+  main {
+    padding: 0 0.5rem;
+  }
+  section {
+    padding: 1rem;
+  }
+  input, select, textarea, button {
+    font-size: 0.95rem;
+    padding: 0.6rem;
+  }
+  footer { font-size: 0.8rem; }
+}
+
+@media (max-width: 480px) {
+  header h1 { font-size: 1.4rem; }
+  section h2 { font-size: 1.2rem; }
+  button { font-size: 0.9rem; }
+}
+
+@media (max-width: 600px) {
+  .notification {
+    top: auto;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    max-width: unset;
+  }
+}

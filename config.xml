@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mistura.citizenapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Citizen App</name>
+    <description>Citizen Reporting Solution App</description>
+    <author email="misturaaaishola@gmail.com" href="https://cordova.apache.org">Mistura Ishola</author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-camera" />
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-firebasex" />
+    <plugin name="cordova-plugin-android-permissions" />
+    <plugin name="cordova.plugins.diagnostic" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="android-minSdkVersion" value="23" />
+        <preference name="android-targetSdkVersion" value="35" />
+        <preference name="android-compileSdkVersion" value="35" />
+        <preference name="android-manifest/application@android:usesCleartextTraffic" value="true" />
+        <config-file parent="/*" target="AndroidManifest.xml" xmlns:android="http://schemas.android.com/apk/res/android">
+            <uses-permission android:name="android.permission.CAMERA" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+            <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+        </config-file>
+    </platform>
+</widget>

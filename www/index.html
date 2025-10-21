@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Citizen Reporting App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Citizen Reporting Solution</h1>
+    <nav id="main-nav">
+      <ul>
+        <li><button onclick="showHome()">Home</button></li>
+        <li><button onclick="showAddIncident()">Submit Incident</button></li>
+        <li><button onclick="showBrowse()">Browse Incidents</button></li>
+        <li><button onclick="logout()">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="notification" class="notification">No new notifications.</div>
+
+  <main>
+    
+    <section id="auth-section">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="username">Email</label>
+        <input type="text" id="username" placeholder="Enter email" required />
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password" required />
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    
+    <section id="home-page" style="display:none;">
+      <h2>Welcome, <span id="userEmail">User</span></h2>
+      <p>Select an action:</p>
+      <button onclick="showAddIncident()">Submit New Incident</button>
+      <button onclick="showBrowse()">Browse Incidents</button>
+    </section>
+
+    
+    <section id="add-incident-page" style="display:none;">
+      <h2>Submit a Report</h2>
+      <form id="incidentForm">
+      <input type="hidden" id="incidentId" value="">  <!-- for edit -->
+
+
+
+        <label for="title">Incident Title</label>
+        <input type="text" id="title" placeholder="Short title" required />
+
+        <label for="category">Category</label>
+        <select id="category" required>
+          <option value="">-- Select Category --</option>
+        </select>
+
+        <label for="description">Description</label>
+        <textarea id="description" rows="4" placeholder="Describe the incident..." required></textarea>
+
+        <label for="location">Location</label>
+        <input type="text" id="location" placeholder="Enter location or use GPS" required />
+        <input type="hidden" id="latitude">
+        <input type="hidden" id="longitude">
+        <button type="button" onclick="getLocation()">Use GPS</button>
+
+        <label for="image">Attach Image</label>
+        <input type="file" id="image" accept="image/*" />
+        <button type="button" onclick="takePhoto()">Take Photo</button>
+        <img id="preview" src="" alt="Image preview" style="display:none; max-width:100%; margin-top:10px;">
+
+        <button type="submit">Submit Report</button>
+        <button type="button" onclick="showHome()">Back</button>
+      </form>
+    </section>
+
+  
+    <section id="browse-page" style="display:none;">
+      <h2>Browse Reported Incidents</h2>
+      <label for="filter">Filter by Category</label>
+      <select id="filter">
+        <option value="all">All</option>
+      </select>
+      <div id="incidentList">
+        <p>No incidents reported yet.</p>
+      </div>
+      <button type="button" onclick="showHome()">Back</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Citizen Reporting App</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

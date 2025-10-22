@@ -1,9 +1,16 @@
 # Citizens Reporting App (Cordova)
 
 **Description:**  
-This is the final project for the **Mobile App Development class at Bincom Academy**, built using **Cordova and App.js**.  
-The app demonstrates essential mobile development skills, including **geolocation**, **image handling**,
-**real-time notifications** via **Firebase** and integration with a **WordPress backend**.  
+The **Citizens Reporting App** is a mobile application developed as the final project for the **Mobile App Development Training** at **Bincom Dev Center**.  
+It was built using **Cordova** and **App.js**, showcasing key mobile development skills such as:
+
+- **Geolocation** to capture and display user location  
+-  **Image handling** for attaching evidence to reports  
+-  **Real-time notifications** powered by Firebase  
+- Integration with a **WordPress backend** for content management
+
+This project reflects the practical application of cross-platform mobile development and API integration.
+
 
  
 ---
@@ -54,6 +61,11 @@ The app demonstrates essential mobile development skills, including **geolocatio
 
 > **Note**: This version has **restricted login** (only the developer can log in for testing purposes)
 
+---
+
+## Acknowledgement
+
+Special thanks to the **Bincom Dev Center** team for the learning experience.
 
 ---
 
